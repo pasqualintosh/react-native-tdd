@@ -7,11 +7,7 @@ describe('App.tsx', () => {
     await device.reloadReactNative();
   });
 
-  it('should have welcome screen', async () => {
-    await expect(element(by.id('welcome-screen'))).toBeVisible();
-  });
-
-  it('should show welcome heading', async () => {
-    await expect(element(by.id('heading'))).toBeVisible();
+  it('should show toggle theme', async () => {
+    await expect(element(by.id('toggle-theme'))).toBeVisible();
   });
 });
