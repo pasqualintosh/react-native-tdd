@@ -10,7 +10,7 @@ npm install -g detox-cli
 - Do detox init -r jest
 - Your .detoxrc.json should look like (NB binaryPath and build under apps.ios)
 
-<code>
+```
 {
   "testRunner": "jest",
   "runnerConfig": "e2e/config.json",
@@ -52,7 +52,7 @@ npm install -g detox-cli
     }
   }
 }
-</pre>
+```
 
 - Do detox build --configuration=ios
 - Check the yourAppName.app path using finder and make sure is the right path writed under binaryPath
